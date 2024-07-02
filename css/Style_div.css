@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #628be6;
+    color: rgb(87, 4, 4);
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    height: 100px;
+}
+
+.slogan {
+    background-color: #5f89e2;
+    color: white;
+    padding: 5px 0;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.menu {
+    background-color: #bebbbb;
+    background-image: url('../images/WhatsApp\ Image\ 2024-07-02\ à\ 18.44.24_dc27311c.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    padding: 10px;
+    width: 200px;
+    overflow-y: auto;
+    border: 1px solid rgb(134, 136, 134);
+}
+
+.menu-block {
+    margin-bottom: 20px;
+}
+
+.menu-block h2 {
+    margin-top: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.menu a i {
+    margin-right: 8px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu-divider {
+    border: 0;
+    border-top: 1px solid #130f0f;
+    margin: 50px 0;
+}
+
+main {
+    flex: 1;
+    padding: 15px;
+    position: relative;
+    overflow-y: auto; 
+    border: 1px solid rgb(136, 143, 136);
+}
+
+div#blocnews {
+    float:right;
+    width:150px;
+    height:130px;
+    background-color:rgb(82, 112, 121);
+    border: #333;
+    background-color: #bebbbb;
+    background-image: url('../images/WhatsApp Image 2024-07-02 à 18.44.24_c13c2702.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    float:left;
+    background-color: bisque;
+    padding: 15px;
+    margin-right: 0;
+}
+.content {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/IMG-20240702-WA0003.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+footer {
+    background-color: #6392be;
+    color: white;
+    text-align: center;
+    padding: 0;
+    width: auto;
+    position: relative;
+}
